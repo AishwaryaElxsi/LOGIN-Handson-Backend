@@ -1,0 +1,5 @@
+{
+  "task_description": "{'component_name': 'Auth-Backend Service Container', 'description': 'Encapsulates all authentication logic and API handling for the Auth-Backend system. This stateless, monolithic Flask application exposes a single POST /api/login endpoint for user authentication. It securely manages at least 10 hardcoded user records (name, email, employee ID, contact number, password) within the codebase, validates login credentials, and returns user profile details on success or a 401 Unauthorized error on failure. All responses are in JSON format. The container is designed for demonstration, prototyping, or as a backend stub for integration testing, and can be easily deployed using Docker. No frontend, persistent storage, or external dependencies are included.', 'framework': 'flask', 'platform': 'backend', 'container': '{\n  "name": "ColorCraft  Container"\n}'}",
+  "tasks": {},
+  "next_task_id": 1
+}
